@@ -1,4 +1,61 @@
 {
   "machineId": "region",
-  "fields": []
+  "fields": [
+    {
+      "dataType": 9,
+      "label": "Currency",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": true,
+      "allowedValues": "AUD|Australian Dollar (AUD)\nBRL|Brazilian Real (BRL)\nGBP|British Pound (GBP)\nCAD|Canadian Dollar (CAD)\nCNY|Chinese Yuan Renminbi (CNY)\nDKK|Danish Krone (DKK)\nEGP|Egyptian Pound (EGP)\nEUR|Euro (EUR)\nHKD|Hong Kong Dollar (HKD)\nINR|Indian Rupee (INR)\nIDR|Indonesian Rupiah (IDR)\nJPY|Japanese Yen (JPY)\nMYR|Malaysian Ringgit (MYR)\nMXN|Mexican Peso (MXN)\nTWD|New Taiwan Dollar (TWD)\nNOK|Norwegian Krone (NOK)\nPKR|Pakistani Rupee (PKR)\nPHP|Philippine Peso (PHP)\nRUB|Russian Ruble (RUB)\nSGD|Singapore Dollar (SGD)\nZAR|South African Rand (ZAR)\nKRW|South Korean Won (KRW)\nSEK|Swedish Krona (SEK)\nCHF|Swiss Franc (CHF)\nTHB|Thai Baht (THB)\nTRY|Turkish Lira (TRY)\nUSD|United States Dollar (USD)",
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "currency"
+    },
+    {
+      "dataType": 2,
+      "label": "Operator Date Format",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "operator_date_format"
+    },
+    {
+      "dataType": 2,
+      "label": "Player Ticket Date Format",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "player_ticket_date_format"
+    },
+    {
+      "dataType": 2,
+      "label": "Operator Ticket Date Format",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "operator_ticket_date_format"
+    }
+  ]
 }
