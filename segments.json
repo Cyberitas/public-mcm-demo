@@ -10,6 +10,18 @@
       {
         "label": "Default",
         "machineId": "default"
+      },
+      {
+        "label": "North America",
+        "machineId": "north_america"
+      },
+      {
+        "label": "Europe",
+        "machineId": "europe"
+      },
+      {
+        "label": "Asia",
+        "machineId": "asia"
       }
     ],
     "system": [
