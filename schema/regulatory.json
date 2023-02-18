@@ -1,4 +1,62 @@
 {
   "machineId": "regulatory",
-  "fields": []
+  "fields": [
+    {
+      "dataType": 1,
+      "label": "Lockup Behavior",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [
+        {
+          "dataType": 6,
+          "label": "Allowed",
+          "description": "",
+          "numberAllowed": 1,
+          "maxLength": 0,
+          "isRequired": false,
+          "allowedValues": null,
+          "minInclusiveValue": null,
+          "maxInclusiveValue": null,
+          "tags": [],
+          "children": [],
+          "machineId": "lockup_allowed"
+        },
+        {
+          "dataType": 6,
+          "label": "Configurable",
+          "description": "",
+          "numberAllowed": 1,
+          "maxLength": 0,
+          "isRequired": false,
+          "allowedValues": null,
+          "minInclusiveValue": null,
+          "maxInclusiveValue": null,
+          "tags": [],
+          "children": [],
+          "machineId": "lockup_configurable"
+        }
+      ],
+      "machineId": "lockup_behavior"
+    },
+    {
+      "dataType": 9,
+      "label": "Restricted Game Types",
+      "description": "",
+      "numberAllowed": 0,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": "Poker\nPictionary\nChutes and Ladders\nCheckers\nChess",
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "restricted_game_types"
+    }
+  ]
 }
