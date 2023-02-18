@@ -1,4 +1,28 @@
 {
   "segmentOptions": {
+    "regulatory": [
+      {
+        "label": "Default",
+        "machineId": "default"
+      }
+    ],
+    "region": [
+      {
+        "label": "Default",
+        "machineId": "default"
+      }
+    ],
+    "system": [
+      {
+        "label": "Default",
+        "machineId": "default"
+      }
+    ],
+    "accounting": [
+      {
+        "label": "Default",
+        "machineId": "default"
+      }
+    ]
   }
 }

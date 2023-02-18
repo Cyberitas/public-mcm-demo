@@ -1,2 +1,26 @@
 [
+  {
+    "label": "Regulatory",
+    "description": "",
+    "labelColor": "#EBBB7D",
+    "machineId": "regulatory"
+  },
+  {
+    "label": "Region",
+    "description": "",
+    "labelColor": "#E3ECF6",
+    "machineId": "region"
+  },
+  {
+    "label": "System",
+    "description": "",
+    "labelColor": "#D4AEBA",
+    "machineId": "system"
+  },
+  {
+    "label": "Accounting",
+    "description": "",
+    "labelColor": "#E2E4D3",
+    "machineId": "accounting"
+  }
 ]
