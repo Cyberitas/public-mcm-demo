@@ -1,4 +1,33 @@
 {
   "machineId": "system",
-  "fields": []
+  "fields": [
+    {
+      "dataType": 4,
+      "label": "Days as New",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": 0,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "days_as_new"
+    },
+    {
+      "dataType": 6,
+      "label": "Display Example Notification",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "display_example_notification"
+    }
+  ]
 }

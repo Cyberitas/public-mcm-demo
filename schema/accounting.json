@@ -1,4 +1,83 @@
 {
   "machineId": "accounting",
-  "fields": []
+  "fields": [
+    {
+      "dataType": 4,
+      "label": "Maximum Credit Meter",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": 0,
+      "maxInclusiveValue": null,
+      "tags": [
+        "limit"
+      ],
+      "children": [],
+      "machineId": "maximum_credit_meter"
+    },
+    {
+      "dataType": 4,
+      "label": "Minimum Credit Meter",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": 0,
+      "maxInclusiveValue": null,
+      "tags": [
+        "limit"
+      ],
+      "children": [],
+      "machineId": "minimum_credit_meter"
+    },
+    {
+      "dataType": 4,
+      "label": "Maximum Example Limit",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [
+        "limit"
+      ],
+      "children": [],
+      "machineId": "maximum_example_limit"
+    },
+    {
+      "dataType": 4,
+      "label": "Minimum Example Limit",
+      "description": "",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": null,
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [
+        "limit"
+      ],
+      "children": [],
+      "machineId": "minimum_example_limit"
+    },
+    {
+      "dataType": 9,
+      "label": "Reboot While Printing Behavior",
+      "description": "Reprint: After operator key-off of reboot while printing error, will remove remaining credits and automatically reprint a cashout ticket.\nClear: After operator key-off of reboot while printing error, will remove remaining credits.\nPrompt: After operator key-off of reboot while printing error, will prompt with a pop-up selection to reprint the voucher or cancel.  Either option will remove remaining credits.  If cancel is selected, the voucher will not be allowed for reprint.",
+      "numberAllowed": 1,
+      "maxLength": 0,
+      "isRequired": false,
+      "allowedValues": "Reprint\nClear\nPrompt",
+      "minInclusiveValue": null,
+      "maxInclusiveValue": null,
+      "tags": [],
+      "children": [],
+      "machineId": "reboot_while_printing_behavior"
+    }
+  ]
 }

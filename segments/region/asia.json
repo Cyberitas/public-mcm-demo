@@ -1,1 +1,20 @@
-{}
+{
+  "operator_date_format": {
+    "type": 2,
+    "values": [
+      "yyyy-MM-dd"
+    ]
+  },
+  "operator_ticket_date_format": {
+    "type": 2,
+    "values": [
+      "yyyy-MM-dd"
+    ]
+  },
+  "player_ticket_date_format": {
+    "type": 2,
+    "values": [
+      "yyyy-MM-dd"
+    ]
+  }
+}
