@@ -4,6 +4,14 @@
       {
         "label": "Default",
         "machineId": "default"
+      },
+      {
+        "label": "GLI-11",
+        "machineId": "gli_11"
+      },
+      {
+        "label": "GLI-23",
+        "machineId": "gli_23"
       }
     ],
     "region": [
