@@ -8,10 +8,6 @@
     ],
     "region": [
       {
-        "label": "Default",
-        "machineId": "default"
-      },
-      {
         "label": "North America",
         "machineId": "north_america"
       },
